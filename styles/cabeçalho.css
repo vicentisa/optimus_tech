@@ -1,0 +1,84 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 7em;
+    align-items: center;
+    position: relative;
+}
+
+    /*CABEÇALHO ESQUERDA*/
+    .cabeçalho__esquerda {
+        display: flex;
+        gap: 5em;
+        align-items: center;
+    }
+
+        /*LOGO*/
+        .cabeçalho__logo {
+            display: flex;
+            gap: 0.5em;
+        }
+
+        .logo__imagem {
+            object-fit: contain;
+        }
+
+        .logo__texto {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--cinza-logo);
+        }
+
+
+        /*MENU NAV*/
+        .cabeçalho__menu {
+            display: flex;
+            gap: 2em;
+        }
+
+        .menu__item {
+            list-style: none;   /* remove a bolinha */
+            padding: 0;         /* remove espaçamento padrão do navegador */
+            margin: 0;          /* opcional */
+        }
+
+        .menu__item__link {
+            color: var(--cinza-claro);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .menu__item__link:hover {
+            color: var(--cinza-destaque);
+        }
+
+
+    /*LOGIN/CADASTRAR */
+    .cabeçalho_login {
+        display: flex;
+        gap: 5em;
+    }
+
+    .login__entrar {
+        font-size: 16px;
+        color: var(--cinza-claro);
+        text-decoration: none;
+        padding: .7em 1.3em;
+    }
+
+    .login__entrar:hover {
+        color: var(--cinza-destaque);
+    }
+
+    .login__cadastrar {
+        font-size: 16px;
+        text-decoration: none;
+        padding: .7em 1.3em;
+        color: var(--branco-fundo);
+        background-color: var(--vermelho-destaque);
+        border-radius: 8px;
+    }
+
+    .login__cadastrar:hover {
+        background-color: #6d1717;
+    }

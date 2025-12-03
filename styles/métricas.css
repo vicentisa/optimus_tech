@@ -1,0 +1,30 @@
+.métricas {
+    display: flex;
+    padding: 0 5em 5em;
+}
+
+    /* CONTAINER */
+    .métricas__container {
+        width: 25%;
+        padding: 2em;
+    }
+
+        /* TITULO */
+        .container__titulo {
+            color: var(--vermelho-destaque);
+            font-size: 60px;
+            font-weight: 600;
+            margin: .3em 0;
+        }
+
+        /* SUB-TITULO */
+        .container__subtitulo {
+            color: var(--cinza-destaque);
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        /* TEXTO */
+        .container__texto {
+            color: var(--cinza-claro);
+        }

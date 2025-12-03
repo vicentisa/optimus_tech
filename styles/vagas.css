@@ -1,0 +1,98 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* APRESENTAÇÃO SOBRE AS VAGAS*/
+    .vagas__apresentação {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em;
+        gap: 1.3em;
+    }
+
+    .apresentação__chamado {
+        color: var(--vermelho-destaque);
+        background-color: var(--vermelho-fundo);
+        font-size: 14px;
+        border-radius: 16px;
+        padding: 4px 12px;
+        margin: 0;
+    }
+
+    .apresentação__titulo {
+        color: var(--cinza-destaque);
+        font-size: 36px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .apresentação__texto {
+        color: var(--cinza-claro);
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+
+    /* IMAGEM DA SECTION */
+    .vagas__imagem {
+        width: 80%;
+    }
+
+    /* OPÇÕES DE VAGAS*/
+
+    .vagas__opções {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding: 4em 0 0;
+        gap: 4em;
+
+    }
+
+
+        /* CONTAINER VAGAS*/
+        .vagas__opções__área {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            gap: 2em;
+        }
+
+        .área__titulo {
+            color: var(--cinza-destaque);
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .área__vaga {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--cinza-borda);
+            border-radius: 16px;
+            padding: 1.5em;
+            gap: 2em;
+        }
+
+            .área__vaga__titulo {
+                color: var(--cinza-destaque);
+                font-size: 18px;
+                font-weight: 500;
+                margin: 0;
+            }
+
+            .área__vaga__informações {
+                display: flex;
+                gap: 1.3em;
+            }
+
+                .área__vaga__informações__texto {
+                    color: var(--cinza-claro);
+                    font-size: 16px;
+                    font-weight: 500;
+                }

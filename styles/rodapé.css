@@ -1,0 +1,54 @@
+.rodapé {
+    background-color: var(--cinza-muito-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5em;
+    padding: 5.5em;
+}
+
+    /* TEXTOS */
+    .rodapé__texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+    }
+
+        .rodapé__texto__titulo {
+            color: var(--cinza-destaque);
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .rodapé__texto__texto {
+            color: var(--cinza-claro);
+            font-size: 20px;
+            font-weight: 400;
+            margin: 0;
+        }
+
+    /* INTERAÇÕES */
+    .rodapé__interação {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+        .rodapé__interação__preencher {
+            border: 1px solid var(--cinza-borda);
+            border-radius: 8px;
+            padding: 1em 1.5em;
+            width: 23em;
+        }
+
+    /* COPYRIGHT */
+    .rodapé__copyright {
+        color: var(--cinza-claro);
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 0;
+    }

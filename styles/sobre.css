@@ -1,0 +1,35 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7em 35em;
+    gap: 2.5em;
+}
+
+    /* PRÉ-TITULO */
+    .sobre__pré-titulo {
+        color: var(--vermelho-destaque);
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* TITULO */
+    .sobre__titulo {
+        color: var(--cinza-destaque);
+        font-size: 48px;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* TEXTO */
+    .sobre__texto {
+        color: var(--cinza-claro);
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        line-height: 1.5;
+    }

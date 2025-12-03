@@ -1,0 +1,32 @@
+/* IMPORTAÇÕES CSS E FONTE */
+@import url(styles/cabeçalho.css);
+@import url(styles/sobre.css);
+@import url(styles/métricas.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimento.css);
+@import url(styles/rodapé.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* VARIÁVEIS PARA EVITAR REPETIÇÃO DE CÓDIGO */
+:root {
+    --branco-fundo: #ffffff;
+    --cinza-logo: #3A404E;
+    --cinza-muito-claro: #F9FAFB;
+    --cinza-claro: #667085;
+    --cinza-destaque: #101828;
+    --vermelho-destaque: #8E2424;
+    --vermelho-fundo: #F9F3F3;
+    --cinza-borda: #D0D5DD;
+
+    --fonte-principal: "Inter", sans-serif;
+
+}
+
+
+body {
+    background-color: var(--branco-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
